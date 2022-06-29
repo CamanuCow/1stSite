@@ -1,0 +1,267 @@
+#body {
+    margin:0;
+    padding:0;
+    text-align: center;
+    background:linear-gradient(
+        90deg,
+        rgba(255, 0, 0, 1) 0%,
+        rgba(255, 154, 0, 1) 10%,
+        rgba(208, 222, 33, 1) 20%,
+        rgba(79, 220, 74, 1) 30%,
+        rgba(63, 218, 216, 1) 40%,
+        rgba(47, 201, 226, 1) 50%,
+        rgba(28, 127, 238, 1) 60%,
+        rgba(95, 21, 242, 1) 70%,
+        rgba(186, 12, 248, 1) 80%,
+        rgba(251, 7, 217, 1) 90%,
+        rgba(255, 0, 0, 1) 100%);
+    background-size: 5% 100%;
+    background-repeat:repeat;
+    font-family:Josefin sans, sans-serif;
+
+}
+#ultraBox {
+
+    border:0;
+    margin:0;
+    padding:0;
+    height: 100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+
+}
+#gigaBox {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin-left:auto;
+    margin-right:auto;
+    width:90%;
+    height:100%;
+    background: #A770EF;  /* fallback for old browsers */
+    background: linear-gradient(0deg, #FDB99B, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#cube {
+    width:30em;
+    height:30em;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:10em;
+    height:4.4em;
+    background-image: linear-gradient(to right, #4776E6 0%, #8E54E9  51%, #4776E6  100%);
+    box-shadow: 0 0 0.5em rgb(25, 25, 25);
+    border:solid 0.1em;
+    border-color: rgba(0, 0, 0,50%);
+    cursor: pointer;
+}
+#menuButtonR {
+    border-radius:0 2.5em 2.5em 0;
+}
+#menuButtonL {
+    border-radius: 2.5em 0 0 2.5em;
+    
+
+}
+#menuButtonTextR {
+    font-weight:bolder;
+    font-size:1.5em;
+    color:aliceblue;
+    font-family:Josefin sans, sans-serif;
+    text-decoration: none;
+    background:none;
+    border:0;
+    
+}
+#menuButtonTextL {
+    font-weight:bolder;
+    font-size:1.5em;
+    color:aliceblue;
+    font-family:Josefin sans, sans-serif;
+    text-decoration: none;
+    background:none;
+    border:0;
+    width:10em;
+    height:3.3em;
+    cursor: pointer;
+}
+#rollButton {
+    border-radius: 1.5em;
+}
+#rollButtonText {
+    font-weight:bolder;
+    font-size:3em;
+    color:aliceblue;
+    font-family:Josefin sans, sans-serif;
+    text-decoration: none;
+    background:none;
+    border:0;
+    width:10em;
+    height:1.5em;
+    cursor: pointer;
+}
+.flexCentered {
+    display: flex;
+    justify-content: center;
+}
+.flexCenteredMarginTop {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5em;
+}
+.borderedPurp {
+    border:solid;
+    border-radius: 2em;
+    border-width: 0.3em;
+    border-color: #9b25c9;
+    padding:0.2em
+}
+ .display {
+    margin:1%;
+    color:darkslateblue;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    font-weight: bolder;
+    font-size: 1.5em; 
+} 
+.forCalc {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.biggerBox {
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    height:13em;
+    min-height:8em;
+    width:50vw;
+    min-width:25em;
+    border-radius:2em;
+    background:black;
+}
+.smallerBox {
+    display:flex;
+    justify-content:left;
+    align-items: center;
+    height:95%;
+    width:65%;
+    border-radius: 1em 0% 0% 1em;
+    margin:2em;
+    margin-right:0;
+    background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(205, 239, 249) 100%)
+}
+.controls {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    flex-wrap: wrap;
+    height:95%;
+    width:30%;
+    border-left:solid;
+    border-color: black;
+    border-width:0.5em;
+    border-radius: 0% 1em 1em 0%;
+    margin:2em;
+    margin-left:0;
+    background:linear-gradient(to right, rgb(46, 46, 47)  0%, rgb(86, 86, 86) 11%,rgb(86, 86, 86) 91%, rgb(46, 46, 47)  100%);
+}
+#operSelect {
+    margin:2%;
+    height:100%;
+    width:40%;
+    border-radius:10%;
+    background: radial-gradient(circle, #ffc700 50%, #fe6e00);
+    border:2%;
+    border-color:gray;
+    font-weight:bolder;
+    color:rgb(0, 0, 0);
+    text-align:center;
+}
+#additionalRoll {
+    margin:2%;
+    height:100%;
+    
+    width:40%;
+    border-radius:10%;
+    background: radial-gradient(circle, #ffc700 50%, #fe6e00);
+    border:2%;
+    border-color:gray;
+    font-weight:bolder;
+    color:rgb(0, 0, 0);
+    text-align:center;
+}
+
+#inputted {
+    margin:2%;
+    height:18%;
+    width:80%;
+    border-radius:10%;
+    background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(205, 239, 249) 100%);
+    border:2%;
+    border-color:gray;
+    font-weight:bolder;
+    color:rgb(0, 0, 0);
+    text-align:center;
+}
+
+#resultat {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin:2%;
+    height:3em;
+    width:40%;
+    min-width:6.8em;
+    border-radius:10%;
+    background: radial-gradient(circle, #ffc700 50%, #fe6e00);
+    border:2%;
+    border-color:gray;
+    font-weight:bolder;
+}
+/*.rainbow-box {
+    width: 7.5vw;
+    height: 100vh;
+    border-radius: 0;
+    background: linear-gradient(
+        90deg,
+        rgba(255, 0, 0, 1) 0%,
+        rgba(255, 154, 0, 1) 10%,
+        rgba(208, 222, 33, 1) 20%,
+        rgba(79, 220, 74, 1) 30%,
+        rgba(63, 218, 216, 1) 40%,
+        rgba(47, 201, 226, 1) 50%,
+        rgba(28, 127, 238, 1) 60%,
+        rgba(95, 21, 242, 1) 70%,
+        rgba(186, 12, 248, 1) 80%,
+        rgba(251, 7, 217, 1) 90%,
+        rgba(255, 0, 0, 1) 100%
+    );
+}
+background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+*/
+/* #logo {}
+#roll {}
+
+#calc {}
+
+
+.menuButton {}
+.dumbBanner {}
+.mainText {}
+
+margin:1em; font-family: Josefin sans, sans-serif; font-weight: bolder; font-size: 1.5em;
+
+
+background-image: url(Res/blya.jpg);
+background-position: center;
+background-repeat: repeat;
+background-size:100%;
+*/
